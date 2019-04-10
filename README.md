@@ -14,5 +14,4 @@ npm i
 npm run dev
 ```
 # 联系方式
-wechat:100000356
-qq:100000356
+wechat/QQ:100000356
