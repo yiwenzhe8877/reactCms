@@ -12,5 +12,15 @@ git clone https://github.com/yiwenzhe8877/reactCms.git
 npm i
 npm run dev
 ```
+
+
+# 功能
+## 登录
+## 退出
+## 常用UI
+## 表格
+## 表单
+## 视频播放
+
 # 联系方式
 wechat/QQ:100000356
