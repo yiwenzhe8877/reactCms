@@ -62,4 +62,9 @@ export default  [
         title:"基础图表",
         key:"/admin/baseechart/index"
     },
+    {
+        id:13,
+        title:"视频",
+        key:"/admin/video/index"
+    },
 ]

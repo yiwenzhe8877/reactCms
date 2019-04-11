@@ -21,6 +21,7 @@ import XLogin from '@pages/form/login';
 import XBasetable from '@pages/basetable/index';
 import XBaseechart from '@pages/baseechart/index';
 import XHome from '@pages/home/index';
+import XVideo from "@pages/video/index"
 
 import {getCache} from "./models/cache";
 
@@ -65,6 +66,7 @@ import {getCache} from "./models/cache";
                                     <Route path="/admin/form/login" component={XLogin}/>
                                     <Route path="/admin/basetable/index" component={XBasetable}/>
                                     <Route path="/admin/baseechart/index" component={XBaseechart}/>
+                                    <Route path="/admin/video/index" component={XVideo}/>
 
                                     <Route  component={NotFound}/>
                                 </Switch>

@@ -111,7 +111,6 @@ class XEchart extends Component {
 
 
     search(params){
-        console.log(params);
         message.info("选择的城市是="+params.city+"------------操作人="+params.operator);
     }
 
