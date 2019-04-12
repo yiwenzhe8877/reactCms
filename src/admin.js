@@ -22,12 +22,10 @@ import XBasetable from '@pages/basetable/index';
 import XBaseechart from '@pages/baseechart/index';
 import XHome from '@pages/home/index';
 import XVideo from "@pages/video/index"
+import XRichtext from "@pages/richtext/index"
 
-import {getCache} from "./models/cache";
 
-// import { connect } from 'react-redux'
-
- class Admin extends Component {
+class Admin extends Component {
 
 
     componentDidMount(){
@@ -67,6 +65,7 @@ import {getCache} from "./models/cache";
                                     <Route path="/admin/basetable/index" component={XBasetable}/>
                                     <Route path="/admin/baseechart/index" component={XBaseechart}/>
                                     <Route path="/admin/video/index" component={XVideo}/>
+                                    <Route path="/admin/richtext/index" component={XRichtext}/>
 
                                     <Route  component={NotFound}/>
                                 </Switch>

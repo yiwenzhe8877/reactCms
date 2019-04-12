@@ -67,4 +67,10 @@ export default  [
         title:"视频",
         key:"/admin/video/index"
     },
+    {
+        id:14,
+        title:"富文本",
+        key:"/admin/richtext/index"
+    },
+
 ]
